@@ -24,5 +24,6 @@ class Embedder:
                 return self.vectors
         vectors = self.encode(docs)
         if self.cache_path:
+            os.makedirs(os.path.dirname(self.cache_path), exist_ok=True)
             joblib.dump({'vectors': vectors, 'docs': docs}, self.cache_path)
         return vectors
