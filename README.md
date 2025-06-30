@@ -67,7 +67,4 @@ youri_chatbot/
 - Embedding cache enabled
 - README with architecture diagram
 
----
 
-## 📞 Contact
-Youri — 2025
