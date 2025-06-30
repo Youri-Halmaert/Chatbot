@@ -1,0 +1,9 @@
+# Dépendances principales
+pymupdf
+sentence-transformers
+faiss-cpu
+streamlit
+openai
+langdetect
+joblib
+numpy
