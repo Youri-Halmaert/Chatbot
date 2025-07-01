@@ -4,10 +4,7 @@ from transformers import pipeline
 
 class LLM:
     def __init__(self, mode="openai", api_key=None, model_name="gpt-3.5-turbo", local_model="mistralai/Mistral-7B-Instruct-v0.2"):
-<<<<<<< HEAD
         # You can change model_name to "gpt-4o" or any model you have access to.
-=======
->>>>>>> 4bf8cd28db6f6a4abc24c1695032e8906a815502
         self.mode = mode
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
         self.model_name = model_name
