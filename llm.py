@@ -3,7 +3,7 @@ import os
 from transformers import pipeline
 
 class LLM:
-    def __init__(self, mode="openai", api_key=None, model_name="gpt-3.5-turbo", local_model="mistralai/Mistral-7B-Instruct-v0.2"):
+    def __init__(self, mode="openai", api_key=None, model_name="gpt-4o", local_model="mistralai/Mistral-7B-Instruct-v0.2"):
         # You can change model_name to "gpt-4o" or any model you have access to.
         self.mode = mode
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
