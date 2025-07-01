@@ -2,6 +2,10 @@
 
 This project creates an assistant that answers natural language questions based on your private PDF documents, using Retrieval-Augmented Generation (RAG).
 
+
+## Access the app here: [PDF-QA Chatbot](https://pdf-app-chatbot-4ovbnutopxatdm8vevdtpk.streamlit.app/)
+
+
 ## ⚙️ Pipeline
 
 1. **PDF Text Extraction**: PyMuPDF
